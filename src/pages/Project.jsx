@@ -43,7 +43,36 @@ function Project() {
             </div>
           </div>
         </div>
-
+        {/* Portfolio */}
+        <div className="w-80 bg-gradient-to-b from-blue-800 via-blue-800 to-purple-800 text-black border-4 rounded-lg hover:shadow-2xl hover:border-red-500 transition-all duration-700 transform hover:scale-105">
+          <div className="p-6 flex flex-col items-center">
+            <img
+              className="w-30 h-20 rounded-lg shadow-md"
+              src="/images/Screenshot from 2024-12-30 19-44-17.png"
+              alt="Portfolio"
+            />
+            <h1 className="text-center font-extrabold text-yellow-400 text-2xl mt-2">Portfolio</h1>
+            <p className="text-center text-sm text-white mt-2 leading-relaxed">
+              My personal portfolio built using{' '}
+              <span className="font-semibold text-red-400">HTML, CSS,React.Js and JavaScript.</span> It showcases my projects,
+              skills, and achievements with a visually appealing layout.
+            </p>
+            <div className="flex gap-4 mt-4">
+              <a
+                href="https://github.com/j3cody/Portfolio"
+                className="px-4 py-2 bg-black text-white border border-yellow-400 rounded-lg hover:bg-yellow-400 hover:text-black transition-all duration-300"
+              >
+                GitHub
+              </a>
+              <a
+                href="/"
+                className="px-4 py-2 bg-black text-white border border-green-400 rounded-lg hover:bg-green-400 hover:text-black transition-all duration-300"
+              >
+                Demo
+              </a>
+            </div>
+          </div>
+        </div>
         {/* Calculator Project */}
         <div className="w-80 bg-gradient-to-b from-blue-800 via-blue-800 to-purple-800 text-black border-4 rounded-lg hover:shadow-2xl hover:border-red-500 transition-all duration-700 transform hover:scale-105">
           <div className="p-6 flex flex-col items-center">
@@ -105,37 +134,7 @@ function Project() {
             </div>
           </div>
         </div>
-
-        {/* Portfolio */}
-        <div className="w-80 bg-gradient-to-b from-blue-800 via-blue-800 to-purple-800 text-black border-4 rounded-lg hover:shadow-2xl hover:border-red-500 transition-all duration-700 transform hover:scale-105">
-          <div className="p-6 flex flex-col items-center">
-            <img
-              className="w-30 h-20 rounded-lg shadow-md"
-              src="/images/Screenshot from 2024-12-30 19-44-17.png"
-              alt="Portfolio"
-            />
-            <h1 className="text-center font-extrabold text-yellow-400 text-2xl mt-2">Portfolio</h1>
-            <p className="text-center text-sm text-white mt-2 leading-relaxed">
-              My personal portfolio built using{' '}
-              <span className="font-semibold text-red-400">HTML, CSS,React.Js and JavaScript.</span> It showcases my projects,
-              skills, and achievements with a visually appealing layout.
-            </p>
-            <div className="flex gap-4 mt-4">
-              <a
-                href="#"
-                className="px-4 py-2 bg-black text-white border border-yellow-400 rounded-lg hover:bg-yellow-400 hover:text-black transition-all duration-300"
-              >
-                GitHub
-              </a>
-              <a
-                href="/"
-                className="px-4 py-2 bg-black text-white border border-green-400 rounded-lg hover:bg-green-400 hover:text-black transition-all duration-300"
-              >
-                Demo
-              </a>
-            </div>
-          </div>
-        </div>
+        
       </div>
       <br />
     </main>
